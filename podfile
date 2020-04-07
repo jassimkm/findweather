@@ -16,7 +16,12 @@ pod 'SVProgressHUD'
   target 'Find WeatherTests' do
     inherit! :search_paths
     # Pods for testing
-  end
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'Toast-Swift'
+pod 'SDWebImage'
+pod 'SVProgressHUD' 
+ end
 
   target 'Find WeatherUITests' do
     # Pods for testing

@@ -110,7 +110,7 @@ class ViewController: UIViewController {
     }
     func getWeatherForeCastFromCoordinates(latitude:Double,longitude:Double,completion:@escaping (_ result: [WFWeatherModel]?, _ sucess: Bool)->())
     {
-        guard let url = URL(string: Constants.cityWeatherApi + "?forecast?lat=\(latitude)&lon=\(longitude)&appid=\(Constants.APIKEY)&units=metric")
+        guard let url = URL(string: Constants.weatherForecastApi + "?lat=\(latitude)&lon=\(longitude)&appid=\(Constants.APIKEY)&units=metric")
             else{
                 
                 return
@@ -163,7 +163,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource
         cell.weatherDescription.text = currentWeatherModel.weather.first?.descriptionField ?? ""
         cell.maxTemprature.text = String(currentWeatherModel.main.tempMax ?? 0) + "°C"
         cell.minTemprature.text = String(currentWeatherModel.main.tempMin ?? 0) + "°C"
-        cell.windSpeed.text = String(currentWeatherModel.wind.speed ?? 0) + "m/s"
+        cell.windSpeed.text = String(currentWeatherModel.wind.speed ?? 0) + " m/s"
         if let icon = currentWeatherModel.weather.first?.icon, let url =  URL(string: Constants.iconBaseUrl + icon + "@2x.png")
             {
                 cell.iconImageView.sd_setImage(with: url, completed: nil)

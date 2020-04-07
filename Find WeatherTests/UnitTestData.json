@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 55.3,
+        "lat": 25.26
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 25.69,
+        "feels_like": 28.13,
+        "temp_min": 24,
+        "temp_max": 27.22,
+        "pressure": 1010,
+        "humidity": 69
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.5,
+        "deg": 240
+    },
+    "clouds": {
+        "all": 32
+    },
+    "dt": 1586280354,
+    "sys": {
+        "type": 1,
+        "id": 7537,
+        "country": "AE",
+        "sunrise": 1586225026,
+        "sunset": 1586270253
+    },
+    "timezone": 14400,
+    "id": 292223,
+    "name": "Dubai",
+    "cod": 200
+}

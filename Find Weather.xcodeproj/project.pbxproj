@@ -16,8 +16,8 @@
 		A62345F9243C46130096DAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62345F7243C46130096DAB4 /* Main.storyboard */; };
 		A62345FB243C46180096DAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62345FA243C46180096DAB4 /* Assets.xcassets */; };
 		A62345FE243C46180096DAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62345FC243C46180096DAB4 /* LaunchScreen.storyboard */; };
-		A6234609243C46180096DAB4 /* Smart_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234608243C46180096DAB4 /* Smart_WeatherTests.swift */; };
-		A6234614243C46180096DAB4 /* Smart_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234613243C46180096DAB4 /* Smart_WeatherUITests.swift */; };
+		A6234609243C46180096DAB4 /* Find_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234608243C46180096DAB4 /* Find_WeatherTests.swift */; };
+		A6234614243C46180096DAB4 /* Find_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234613243C46180096DAB4 /* Find_WeatherUITests.swift */; };
 		A6234622243C4D320096DAB4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234621243C4D320096DAB4 /* APIHelper.swift */; };
 		A6234624243C51460096DAB4 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234623243C51460096DAB4 /* WeatherTableViewCell.swift */; };
 		A6234626243C53A60096DAB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6234625243C53A60096DAB4 /* Constants.swift */; };
@@ -29,6 +29,7 @@
 		A6234651243C6A680096DAB4 /* WFCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623464A243C6A670096DAB4 /* WFCoord.swift */; };
 		A6234652243C6A680096DAB4 /* WFCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623464B243C6A670096DAB4 /* WFCloud.swift */; };
 		A6234653243C6A680096DAB4 /* WFWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623464C243C6A670096DAB4 /* WFWind.swift */; };
+		A6FD9670243CFAA40080CDFA /* UnitTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = A6FD966F243CFAA40080CDFA /* UnitTestData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +68,10 @@
 		A62345FD243C46180096DAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A62345FF243C46180096DAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6234604243C46180096DAB4 /* Find WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6234608243C46180096DAB4 /* Smart_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_WeatherTests.swift; sourceTree = "<group>"; };
+		A6234608243C46180096DAB4 /* Find_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_WeatherTests.swift; sourceTree = "<group>"; };
 		A623460A243C46180096DAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A623460F243C46180096DAB4 /* Find WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6234613243C46180096DAB4 /* Smart_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_WeatherUITests.swift; sourceTree = "<group>"; };
+		A6234613243C46180096DAB4 /* Find_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_WeatherUITests.swift; sourceTree = "<group>"; };
 		A6234615243C46190096DAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6234621243C4D320096DAB4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		A6234623243C51460096DAB4 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		A623464A243C6A670096DAB4 /* WFCoord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFCoord.swift; sourceTree = "<group>"; };
 		A623464B243C6A670096DAB4 /* WFCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFCloud.swift; sourceTree = "<group>"; };
 		A623464C243C6A670096DAB4 /* WFWind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFWind.swift; sourceTree = "<group>"; };
+		A6FD966F243CFAA40080CDFA /* UnitTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UnitTestData.json; sourceTree = "<group>"; };
 		BCEADBD153D6BDA066DACDDD /* Pods-Smart Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Weather.release.xcconfig"; path = "Target Support Files/Pods-Smart Weather/Pods-Smart Weather.release.xcconfig"; sourceTree = "<group>"; };
 		BFE6BE9D2142038EE635E1C4 /* Pods_Find_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B69026C262121B93161939 /* Pods-Smart Weather-Smart WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Weather-Smart WeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smart Weather-Smart WeatherUITests/Pods-Smart Weather-Smart WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,8 +184,9 @@
 		A6234607243C46180096DAB4 /* Find WeatherTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6234608243C46180096DAB4 /* Smart_WeatherTests.swift */,
+				A6234608243C46180096DAB4 /* Find_WeatherTests.swift */,
 				A623460A243C46180096DAB4 /* Info.plist */,
+				A6FD966F243CFAA40080CDFA /* UnitTestData.json */,
 			);
 			path = "Find WeatherTests";
 			sourceTree = "<group>";
@@ -191,7 +194,7 @@
 		A6234612243C46180096DAB4 /* Find WeatherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A6234613243C46180096DAB4 /* Smart_WeatherUITests.swift */,
+				A6234613243C46180096DAB4 /* Find_WeatherUITests.swift */,
 				A6234615243C46190096DAB4 /* Info.plist */,
 			);
 			path = "Find WeatherUITests";
@@ -251,6 +254,7 @@
 				A6234600243C46180096DAB4 /* Sources */,
 				A6234601243C46180096DAB4 /* Frameworks */,
 				A6234602243C46180096DAB4 /* Resources */,
+				09E7CC4E7A0AA7958344C8CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FD9670243CFAA40080CDFA /* UnitTestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +358,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09E7CC4E7A0AA7958344C8CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find WeatherTests/Pods-Find WeatherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find WeatherTests/Pods-Find WeatherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find WeatherTests/Pods-Find WeatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1555916863698170BB950859 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,7 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6234609243C46180096DAB4 /* Smart_WeatherTests.swift in Sources */,
+				A6234609243C46180096DAB4 /* Find_WeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6234614243C46180096DAB4 /* Smart_WeatherUITests.swift in Sources */,
+				A6234614243C46180096DAB4 /* Find_WeatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -632,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -647,14 +669,16 @@
 			baseConfigurationReference = 580F8B27D4DF03FCEC3E7D35 /* Pods-Find Weather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart Weather/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Find Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jassim.Find-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassim.findweather;
 				PRODUCT_NAME = "Find Weather";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,14 +689,16 @@
 			baseConfigurationReference = 242E1AC99E10D5444F7751C7 /* Pods-Find Weather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart Weather/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Find Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jassim.Find-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassim.findweather;
 				PRODUCT_NAME = "Find Weather";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -685,7 +711,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart WeatherTests/Info.plist";
+				INFOPLIST_FILE = "Find WeatherTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -707,7 +733,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart WeatherTests/Info.plist";
+				INFOPLIST_FILE = "Find WeatherTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -728,7 +754,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart WeatherUITests/Info.plist";
+				INFOPLIST_FILE = "Find WeatherUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -748,7 +774,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Smart WeatherUITests/Info.plist";
+				INFOPLIST_FILE = "Find WeatherUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
