@@ -22,6 +22,7 @@ class WFWeatherModel : NSObject, NSCoding{
     var visibility : Int!
     var weather : [WFWeather]!
     var wind : WFWind!
+    var date : Date?
 
 	/**
 	 * Instantiate the instance using the passed json values to set the properties values
@@ -62,6 +63,13 @@ class WFWeatherModel : NSObject, NSCoding{
         let windJson = json["wind"]
         if !windJson.isEmpty{
             wind = WFWind(fromJson: windJson)
+        }
+        
+        let dateformater = DateFormatter()
+        dateformater.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        if let dateString = json["dt_txt"].string ,let date = dateformater.date(from: dateString)
+        {
+            self.date = date
         }
 	}
 
